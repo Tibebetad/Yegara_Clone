@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 #
-#   Original version by UNDEADSEC - https://github.com/UndeadSec/EvilURL
-#   hackOx version by @deantonious
 
 import argparse, sys, socket
 from time import sleep
@@ -12,10 +11,7 @@ from os import system
 def banner():
     print('''
   _____       _ _ _   _ ____  _           ____ _     ___ 
- | ____|_   _(_) | | | |  _ \| |         / ___| |   |_ _|
- |  _| \ \ / / | | | | | |_) | |   _____| |   | |    | |    
- | |___ \ V /| | | |_| |  _ <| |__|_____| |___| |___ | | 
- |_____| \_/ |_|_|\___/|_| \_\_____|     \____|_____|___|  v1.0                                                       
+                                    
 ''')
 names = ["Cyrillic Small Letter A",
          "Greek Lunate Sigma Symbol",
